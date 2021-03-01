@@ -40,7 +40,7 @@ countRepeatWord("Hola mundo Adios mundo mundo mund","mundo") */
 checkPalindromos("ojo") */
 
 /* 8) Programa una función que elimine cierto patrón de caracteres de un texto dado, pe. miFuncion("xyz1, xyz2, xyz3, xyz4 y xyz5", "xyz") devolverá  "1, 2, 3, 4 y 5. */
-const filterString = (inString,stringToDelete)=>{
+/* const filterString = (inString,stringToDelete)=>{
     
     if(typeof inString !== "string" || inString === "" || inString === " " ) return console.warn("No ingresaste una cadena de texto")
     if(typeof stringToDelete !== "string" || stringToDelete === "") return console.warn("debes ingresar el patron a eliminar")
@@ -52,4 +52,4 @@ const filterString = (inString,stringToDelete)=>{
     console.info(outString)
 
 }
-filterString("Hola, mundo, malparido, hijo, de, puta", ",")
+filterString("Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum odio tenetur dolorum corporis consequatur quibusdam accusamus repellat alias labore reprehenderit. Animi rem error velit amet exercitationem mollitia, nemo sed dolore.", "s") */
